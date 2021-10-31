@@ -1,0 +1,8 @@
+frase = input('escreva seu nome completo: ')
+nome = frase.strip()
+print(nome.upper())
+print(nome.lower())
+a = nome.split()
+print('seu nome possui {} letras.'.format(len(''.join(a))))
+b = nome.find(' ')
+print('seu primeiro nome possui {} letras.'.format(len(nome[:b])))
